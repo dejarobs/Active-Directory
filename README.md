@@ -2,9 +2,9 @@
 
 ## Overview
 
-This project demonstrates the deployment and administration of a Windows Server 2022 Active Directory environment in a virtual lab using UTM.
+This project demonstrates the deployment and administration of an enterprise Active Directory environment hosted in Microsoft Azure.
 
-The purpose of this lab is to gain hands-on experience with enterprise Windows administration by configuring a Domain Controller, managing users and groups, applying Group Policy, joining client computers to the domain, and documenting the entire process.
+The lab includes configuring a Windows Server Domain Controller, joining a Windows 11 client to the domain, managing users and groups, configuring Group Policy, implementing NTFS permissions, reviewing Windows Security events, performing PowerShell administration, and documenting the entire deployment.
 
 ## Objectives
 
@@ -19,15 +19,33 @@ The purpose of this lab is to gain hands-on experience with enterprise Windows a
 
 ## Lab Environment
 
-- Host Machine: MacBook Air
-- Hypervisor: UTM
-- Operating System: Windows Server 2022
-- Client: Windows 11 Enterprise
-- Version Control: Git & GitHub
+- Cloud Platform: Microsoft Azure
+- Domain Controller: Windows Server 2025
+- Client Machine: Windows 11
+- Domain: adlab.local
+- Services:
+  - Active Directory Domain Services
+  - DNS
+  - Group Policy
+  - PowerShell
+
+## Technologies Used
+
+- Microsoft Azure
+- Windows Server 2025
+- Windows 11
+- Active Directory Domain Services
+- DNS
+- Group Policy
+- PowerShell
+- Windows Event Viewer
+- NTFS Permissions
+- Git
+- GitHub
 
 ## Project Status
 
-🟡 In Progress
+🟢 Completed
 
 ## Repository Structure
 
@@ -52,11 +70,35 @@ Active-Directory/
 
 ## Skills Demonstrated
 
-- Active Directory
-- Windows Server Administration
-- DNS
-- DHCP
-- Group Policy
-- User & Group Management
-- Windows Administration
-- Virtualization
+- Active Directory Administration
+- Organizational Unit (OU) Management
+- User and Group Administration
+- Domain Join Operations
+- DNS Configuration
+- Group Policy Management
+- NTFS Permissions
+- Windows Security Event Analysis
+- Authentication Auditing
+- PowerShell Administration
+- Azure Virtual Machine Management
+
+## Project Walkthrough
+
+01. Azure Infrastructure
+02. Server Manager Configuration
+03. Active Directory Users and Computers
+04. Domain Join
+05. Shared Department Folders
+06. NTFS Permissions
+07. Permission Validation
+08. Group Policy Management
+09. Successful Authentication (Event ID 4624)
+10. Failed Authentication (Event ID 4625)
+11. PowerShell – List Active Directory Users
+12. PowerShell – Create and Verify Active Directory User
+13. PowerShell Security Logs
+14. Azure VM Deallocated
+
+## Key Takeaways
+
+Through this lab I gained hands-on experience deploying and administering an enterprise Active Directory environment in Microsoft Azure. I configured identity services, managed users and permissions, applied Group Policy, analyzed authentication events, and used PowerShell to administer the environment.
