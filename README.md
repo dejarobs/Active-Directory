@@ -36,8 +36,18 @@ Active-Directory/
 │
 ├── README.md
 ├── Screenshots/
+│   ├── 01-azure-infrastructure-CLIENT01.png
+│   ├── 01-azure-infrastructure-DC01.png
+│   ├── ...
+│   └── 14-azure-vm-deallocated.png
+│
 ├── Documentation/
+│   ├── Active-Directory-Lab-Guide.pdf
+│   ├── Commands.md
+│   └── Lessons-Learned.md
+│
 └── Diagrams/
+    └── Active-Directory-Network.png
 ```
 
 ## Skills Demonstrated
