@@ -4,18 +4,19 @@
 
 This project demonstrates the deployment and administration of an enterprise Active Directory environment hosted in Microsoft Azure.
 
-The lab includes configuring a Windows Server Domain Controller, joining a Windows 11 client to the domain, managing users and groups, configuring Group Policy, implementing NTFS permissions, reviewing Windows Security events, performing PowerShell administration, and documenting the entire deployment.
+The lab includes configuring a Windows Server Domain Controller, joining a Windows 11 client to the domain, managing users and groups, configuring Group Policy, implementing NTFS permissions, reviewing Windows Security events, performing PowerShell administration, and documenting the entire deployment. Hosting the environment in Microsoft Azure simulates enterprise cloud infrastructure commonly used in production environments.
 
 ## Objectives
 
-- Install Windows Server 2022
+- Install Windows Server 2025
 - Configure a Domain Controller
 - Install Active Directory Domain Services (AD DS)
 - Create Organizational Units (OUs)
 - Create and manage users and groups
-- Join Windows 11 to the domain
+- Join a Windows 11 client to the Active Directory domain
 - Configure Group Policy Objects (GPOs)
 - Document the lab with screenshots
+- Use PowerShell to administer and monitor Active Directory
 
 ## Lab Environment
 
